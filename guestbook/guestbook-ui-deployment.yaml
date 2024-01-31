@@ -18,7 +18,7 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 80
-        environment:
+        env:
         - name: VARIAVEL
           valueFrom:
             configMapKeyRef:
