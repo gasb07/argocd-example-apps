@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  .env: |
+    VARIAVEL=teste
+    VARIAVEL2=123
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: teste
